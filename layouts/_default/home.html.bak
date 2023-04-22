@@ -1,0 +1,35 @@
+{{ define "load_paginator" }}
+
+  {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{ with .Paginate $pages }}{{ end }}
+
+{{ end }}
+
+{{ define "load_page_assets" }}
+
+  {{ range .Paginator.Pages }}
+    {{ with .Content }}{{ end }}
+    {{ $page_css := .Scratch.Get "css" }}
+    {{ with $page_css }}
+      {{ $css_list := $.Scratch.Get "css" }}
+      {{ . | merge $css_list | $.Scratch.Set "css" }}
+    {{ end }}
+    {{ $page_js := .Scratch.Get "js" }}
+    {{ with $page_js }}
+      {{ $js_list := $.Scratch.Get "js" }}
+      {{ . | merge $js_list | $.Scratch.Set "js" }}
+    {{ end }}
+  {{ end }}
+
+{{ end }}
+
+{{ define "main" }}
+<h1>
+Concerned GRCS Families
+</h1>
+<p>We don't think GRCS should discriminate against LGBTQ individuals.</p>
+<p>Maybe we have some other things to say. Quisque eu condimentum ex, sit amet tincidunt felis. Donec tincidunt non ipsum eu lacinia. Integer eget orci commodo, tincidunt sapien vitae, auctor ligula. In hac habitasse platea dictumst. Aliquam non magna non purus suscipit aliquet consequat quis justo. Mauris sit amet hendrerit nibh.</p>
+<h2>Join us</h2>
+<p><a href="https://docs.google.com/document/d/e/2PACX-1vTNAdJ3u_EZrl0c3lZ5J_7mcXtxyWE-ETYn9_J6N52cPwx6Zhi9Qi3Pbe6AMEX_oEJSbZP5rIEWbuhL/pub">Read our petition</a></p>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLScvmY1Mcw7vI2o5kkJoJR3KwP6QHAMu5UhKv7z_eVfAkM7iNg/viewform">Sign the petition</a></p>
+{{ end }}
