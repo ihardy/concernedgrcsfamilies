@@ -4,7 +4,7 @@ date: 2023-05-05T14:13:12-04:00
 draft: false
 ---
 
-The petition was submitted to the board on Wednesday, May 3 with over 2000 signatures. Many thanks to all who signed. We see this overwhelming response as evidence of a healthy and engaged community— something we can all be proud of. We recieved the following response from the board Friday, May 5:
+The petition was submitted to the board on Wednesday, May 3 with over 2000 signatures. Many thanks to all who signed. We see this overwhelming response as evidence of a healthy and engaged community— something we can all be proud of. We received the following response from the board Friday, May 5:
 
 > Dear Concerned GRCS Families,
 >
