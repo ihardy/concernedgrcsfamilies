@@ -4,7 +4,7 @@ title: "Policy 220 Adopted December 2022"
 draft: false
 layout: page
 ---
-The [full text of the policy adopted by the board in December 2022 is available here](/PositionSatementFinal.pdf). The petition proposes delaying the adoption of this policy until adequate community input has been collected. The policy is also reproduced below with new language adopted in 2022 higlighted in bold.
+The [full text of the policy adopted by the board in December 2022 is available here](/PositionStatementFinal.pdf). The petition proposes delaying the adoption of this policy until adequate community input has been collected. The policy is also reproduced below with new language adopted in 2022 higlighted in bold.
 
 ### Full Text of Policy
 
