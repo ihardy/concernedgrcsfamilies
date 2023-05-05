@@ -35,9 +35,12 @@ params:
 
 menu:
   nav:
+    - name: "Policy 220"
+      url: policy/
+      weight: 1
     - name: News
       url: news/
-      weight: 1
+      weight: 2
 
 mediaTypes:
   font/woff2:
